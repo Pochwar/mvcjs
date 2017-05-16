@@ -1,0 +1,38 @@
+body {
+    width: 1400px;
+    margin: auto;
+}
+
+section {
+    width: 410px;
+    float: left;
+    margin: 10px;
+    border: 1px solid #555;
+    height: 600px;
+}
+
+.messages {
+    height: 520px;
+    overflow-y: scroll;
+}
+
+.send-message {
+    height: 50px;
+    padding: 10px;
+}
+
+form {
+    margin: auto;
+    width: 300px;
+    display: inline-block;
+}
+
+input[type="text"] {
+    width: 220px;
+    height: 30px;
+}
+
+input[type="submit"], button {
+    height: 37px;
+    width: 50px;
+}
