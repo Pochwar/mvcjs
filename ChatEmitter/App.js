@@ -3,14 +3,10 @@ window.onload = function() {
     var bob = new User('bob');
     var frank = new User('frank');
 
-    alice.addFriends(frank);
-    alice.addFriends(bob);
-    bob.addFriends(alice);
-    bob.addFriends(frank);
-    frank.addFriends(alice);
-    frank.addFriends(bob);
-
-    alice.initFriends();
-    bob.initFriends();
-    frank.initFriends();
+    alice.setFriend(frank);
+    alice.setFriend(bob);
+    bob.setFriend(alice);
+    bob.setFriend(frank);
+    frank.setFriend(alice);
+    frank.setFriend(bob);
 }

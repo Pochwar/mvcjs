@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+
+    <link rel="stylesheet" href="/Chat/style/style.css" />
+    <script src="/Chat/scripts/EventEmitter.js"></script>
+    <script src="/Chat/scripts/Chat.js"></script>
+    <script src="/Chat/App.js"></script>
+</head>
+<body>
+
+    <article id="chat">
+        <section id="alice">
+            <div id="alice-messages-list" class="messages"></div>
+
+            <hr />
+            <form id="alice-send-message" class="send-message">
+                <input type="text" id="alice-message" placeholder="message" />
+                <input type="submit" value="Ok" />
+            </form>
+            <button id="alice-disconnect">X</button>
+        </section>
+
+        <section id="bob">
+            <div id="bob-messages-list" class="messages"></div>
+
+            <hr />
+            <form id="bob-send-message" class="send-message">
+                <input type="text" id="bob-message" placeholder="message" />
+                <input type="submit" value="Ok" />
+            </form>
+            <button id="bob-disconnect">X</button>
+        </section>
+    </article>
+
+</body>
+</html>
